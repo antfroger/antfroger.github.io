@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.network :private_network, ip: "192.168.33.20"
 
   config.trigger.after [:up, :resume, :reload], :stdout => true do
-    run_remote "cd /vagrant; jekyll serve --host 0.0.0.0 --detach"
+    run_remote "cd /vagrant; jekyll serve --host 0.0.0.0 --force_polling"
   end
 
 end

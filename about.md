@@ -1,15 +1,21 @@
 ---
+title: about
 layout: page
-title: About
 permalink: /about/
 ---
+![Profile Image]({% if site.external-image == false %}/{% endif %}{{ site.picture }})
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<p>Hi, I'm Antoine !</p>
+<p>
+    32 years old. "Papa poule". Traveler.<br />
+    Photograph in my spare time. <br />
+    Lifelong learner.
+</p>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<i class="breaker"></i>
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+{% if site.resume == true %}
+<p>
+    <a href="{{ site.resume_url }}" class="link" target="_blank">My resume</a>
+</p>
+{% endif %}

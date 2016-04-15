@@ -1,0 +1,25 @@
+<nav class="{% if page.title == "home" %}nav-home{% else %}nav{% endif %}">
+    <ul class="list">
+        {% if page.title != "home" %}
+            <li class="item">
+                <a class="link" href="/">Home</a>
+            </li>
+        {% endif %}
+
+        {% if site.projects == true %}
+            {% if page.title != "projects" %}
+                <li class="item">
+                    <a class="link" href="/projects">Projects</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if site.about == true %}
+            {% if page.title != "about" %}
+                <li class="item">
+                    <a class="link" href="/about">About</a>
+                </li>
+            {% endif %}
+        {% endif %}
+    </ul>
+</nav>
