@@ -25,9 +25,18 @@ width: large
 
 # navigation
 about: true
-projects: false
+projects: true
 resume: true
 resume_url: '/docs/resume-antoine-froger.pdf'
+
+# projects
+projects-data: [
+    {
+        title: "Git (survival kit)",
+        description: "Workshop @ Etsy France / A little Market",
+        url: "http://slides.com/antfroger/git-survival-kit"
+    }
+]
 
 # do you want some animations?
 animation: true
