@@ -18,12 +18,7 @@
 <body>
 
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.title == "about" or page.title == "404" %}
-            <div class="page {{ page.title }}">
-        {% else %}
-            <div class="{{ page.title }}">
-        {% endif %}
-
+        <div class="page {{ page.title }}">
             {{ content }}
         </div>
     </div>
