@@ -11,6 +11,10 @@ url: ''
 markdown: kramdown
 highlighter: rouge
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
 # analytics-google: 'UA-MYANALYTICS'
 
 # social networks
