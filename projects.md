@@ -4,16 +4,7 @@ layout: page
 permalink: /projects/
 ---
 
-<div class="header-home {% if site.animation %}animated{% endif %}">
-    <a class="link" href="{{ site.url }}/about">
-        <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image == false %}/{% endif %}{{ site.picture }}" />
-    </a>
-
-    <h1 class="title">{{ site.name }}</h1>
-    <h2 class="description">{{ site.bio }}</h2>
-
-    {% include social-links.html %}
-</div>
+{% include bio.html %}
 
 <section class="list">
     {% for project in site.projects-data %}
