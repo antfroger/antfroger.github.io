@@ -15,7 +15,7 @@ sass:
     sass_dir: _sass
     style: compressed
 
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-60532987-4'
 
 # social networks
 twitter: __tooni__
