@@ -29,16 +29,32 @@ width: large
 
 # navigation
 about: true
-projects: true
 resume: true
 resume_url: '/docs/resume-antoine-froger.pdf'
 
 # projects
-projects-data: [
+projects: []
+
+# talks
+talks: [
     {
         title: "Git (survival kit)",
         description: "Workshop @ Etsy France / A little Market",
         url: "http://slides.com/antfroger/git-survival-kit"
+    }
+]
+
+# posts
+blog_posts: [
+    {
+        date: "2016/07/13",
+        title: "Git Survival Kit workshop",
+        url: "http://codepaperscissors.com/workshop/2016/07/13/workshop-git-survival-kit/"
+    },
+    {
+        date: "2015/04/03",
+        title: "The technical workflow at Etsy France (Part 1)",
+        url: "http://codepaperscissors.com/workflow/2015/04/03/technical-workflow/"
     }
 ]
 
