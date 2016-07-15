@@ -7,7 +7,7 @@ permalink: /about/
 
 <p>
     Hi, I'm Antoine !<br /><br />
-    Senior Backend engineer
+    I'm a Senior Backend engineer at Etsy France / A little Market
 </p>
 
 <p>
