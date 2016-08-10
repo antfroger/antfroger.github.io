@@ -47,9 +47,9 @@ talks: [
 # posts
 blog_posts: [
     {
-        date: "2016/07/13",
-        title: "Git Survival Kit workshop",
-        url: "http://codepaperscissors.com/workshop/2016/07/13/workshop-git-survival-kit/"
+        date: "2016/07/27",
+        title: "How Etsy France migrated all its sites to HTTPS",
+        url: "http://codepaperscissors.com/projects/2016/07/27/https-securise-websites/"
     },
     {
         date: "2015/04/03",
