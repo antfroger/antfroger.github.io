@@ -14,7 +14,7 @@ permalink: /about/
 {% if site.resume == true %}
 <a href="{{ site.resume_url }}" class="link" target="_blank">My resume</a>
   {% if site.linkedin %} 
-    <a href="http://linkedin.com/in/{{ site.linkedin }}" class="link" target="_blank">(Linkedin)</a>
+    <a href="https://linkedin.com/in/{{ site.linkedin }}" class="link" target="_blank">(Linkedin)</a>
   {% endif %}
 {% endif %}
 </p>
