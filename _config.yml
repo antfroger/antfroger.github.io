@@ -40,7 +40,7 @@ talks: [
     {
         title: "Git (survival kit)",
         description: "Workshop @ Etsy France / A little Market",
-        url: "http://slides.com/antfroger/git-survival-kit"
+        url: "/slides/git-survival-kit/"
     }
 ]
 
