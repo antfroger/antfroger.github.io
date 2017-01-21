@@ -38,6 +38,11 @@ projects: []
 # talks
 talks: [
     {
+        title: "Be SOLID",
+        description: "Tech meetup @ Newcraft",
+        url: "/slides-be-solid"
+    },
+    {
         title: "Git (survival kit)",
         description: "Workshop @ Etsy France / A little Market",
         url: "/slides-git-survival-kit"
