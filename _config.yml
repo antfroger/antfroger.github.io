@@ -3,8 +3,8 @@ name: Antoine Froger
 bio: 'Senior Backend Software Engineer'
 
 # if it's an external image, update below for true
-external-image: true
-picture: 'https://avatars2.githubusercontent.com/u/3509631'
+external-image: false
+picture: 'assets/images/profile.jpg'
 
 url: ''
 
@@ -25,7 +25,7 @@ github: antfroger
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # navigation
 about: true

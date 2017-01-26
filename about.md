@@ -3,20 +3,16 @@ title: about
 layout: page
 permalink: /about/
 ---
+
 ![Profile Image]({% if site.external-image == false %}/{% endif %}{{ site.picture }})
 
 <p>
-    Hi, I'm Antoine !<br /><br />
-    I'm a Senior Backend engineer at Etsy France / A little Market
+    Hi, I'm <strong>Antoine</strong> !<br /><br />
+    I'm a <strong>Senior Backend Engineer</strong> with more than 10 years of experience
 </p>
 
 <p>
-{% if site.resume == true %}
-<a href="{{ site.resume_url }}" class="link" target="_blank">My resume</a>
-  {% if site.linkedin %} 
-    <a href="https://linkedin.com/in/{{ site.linkedin }}" class="link" target="_blank">(Linkedin)</a>
-  {% endif %}
-{% endif %}
+    Take a look at my <a href="{{ site.resume_url }}" class="link" target="_blank">resume</a> {% if site.linkedin %} or <a href="https://linkedin.com/in/{{ site.linkedin }}" class="link" target="_blank">Linkedin profile</a>{% endif %}!
 </p>
 
 <i class="breaker"></i>

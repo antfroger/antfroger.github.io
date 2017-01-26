@@ -59,10 +59,6 @@ p {
     letter-spacing: 0.2px;
   }
 }
-strong {
-  font-weight: 400;
-  color: #000;
-}
 ul li,
 ol li {
   line-height: 2.4rem;
@@ -815,7 +811,7 @@ pre {
 }
 @media only screen and (min-width: 780px) {
   .side-by-side > .toleft {
-    margin-right: 2%;
+    margin-right: 1%;
   }
 }
 @media only screen and (max-width: 780px) {
