@@ -38,6 +38,11 @@ projects: []
 # talks
 talks: [
     {
+        title: "Javascript Unit Testing",
+        description: "Tech meetup @ Newcraft",
+        url: "/slides-javascript-unit-testing/"
+    },
+    {
         title: "Be SOLID",
         description: "Tech meetup @ Newcraft",
         url: "/slides-be-solid"
